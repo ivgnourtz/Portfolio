@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ivgnourt",
+    pageTitle: "ivgnourtz",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,9 +23,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
-        body: "Inter",
-        code: "JetBrains Mono",
+        header: "Source Code Pro",
+        body: "Source Code Pro",
+        code: "Source Code Pro",
+        title: "Source Code Pro",
       },
       colors: {
         lightMode: {
